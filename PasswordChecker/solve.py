@@ -41,7 +41,7 @@ for i in range(PassLen):
         for char in SpecialChars:
             char="\\" + char
             if verify(payload+char):
-                payload+=char[1]
+                payload+=char
                 print(payload[1:])
                 break
 
