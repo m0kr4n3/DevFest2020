@@ -1,4 +1,4 @@
-from requests import post,get
+from requests import post
 from string import ascii_lowercase as low, ascii_uppercase as up,digits as num
 SpecialChars='!#$%&*+,-./:;=@\\^_`~'
 
